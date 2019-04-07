@@ -5,7 +5,7 @@ The main application is written in sdn_mec2_ryu.py, and the other code (Northbou
 
 The main functionalities of sdn_mec2_ryu.py are:
 - Initialize the variables from a configuration file
-- Create a SQL database to store the redirection rules and their parameters, this will facilitate the control procedure held by the RYU controller
+- Create an SQL database to store the redirection rules and their parameters, this will facilitate the control procedure held by the RYU controller
 - Configure the default rules at the switch
 - Design the Packet_IN logic when UE is up
 
