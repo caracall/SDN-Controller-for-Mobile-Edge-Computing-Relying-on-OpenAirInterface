@@ -69,7 +69,7 @@ class MEController(app_manager.RyuApp):
         parser = datapath.ofproto_parser
 
         # configure the default rules at the switch
-	      # frist rule redirect all packets from the UE to the controller
+	# frist rule redirect all packets from the UE to the controller
         
         match = parser.OFPMatch(in_port = self.PORT_ENB)
         
