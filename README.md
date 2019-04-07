@@ -1,0 +1,2 @@
+# SDN-Controller-for-Mobile-Edge-Computing-Relying-on-OpenAirInterface
+This repository contains two python codes that play a big role in the traffic redirection in Mobile Edge Computing (MEC). RYU controller is in charge of the traffic redirection. The main application is written in sdn_mec2_ryu.py, and the other code (Northbound_RYU.py) is responsible for the northbound API calls coming from the Mobile Edge Computing Platform Frontend to the RYU controller.
